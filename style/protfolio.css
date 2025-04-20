@@ -82,6 +82,9 @@ nav ul{
     width: 580px;
 }
 /* main tag */
+.text-cntr{
+    text-align: center;
+}
 .sec-title{
     font-size: 35;
     font-weight: 700;
@@ -96,7 +99,10 @@ nav ul{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+    /* margin-top: 130px; */
+}
+main section{
+    margin-top: 130px ;
 }
 /* main styles */
 main{
@@ -109,4 +115,14 @@ main{
 .about-itms{
     display: flex;
     justify-content: space-between;
+}
+/* skil section styles */
+.skil-cntnr{
+    display: flex;
+    gap: 24px;
+}
+.skil{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
 }
