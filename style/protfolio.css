@@ -1,0 +1,112 @@
+/* Nav styles */
+/* header */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+.ajim{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+/* shared style */
+.scndry-bg{
+    background-color: rgb(255, 248, 243);
+}
+.text-primary{
+    color: chocolate;
+}
+.dark-2{
+    color: rgb(71, 71, 71);
+}
+
+/* Nav style */
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+.btn{
+    border-radius: 5px;
+    background: rgb(253, 110, 10); 
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    font-size: 20px;
+    border: none;
+}
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+.banner-cntnt{
+    max-width: 580px;
+}
+.bnr-g{
+    font-size: 45px;
+    font-weight: 600;
+}
+.bnr-t{
+    font-weight: bold;
+    font-size: 85px;
+}
+.bnr-de{
+    font-size: 18px;
+}
+.bnr-p{
+    width: 580px;
+}
+/* main tag */
+.sec-title{
+    font-size: 35;
+    font-weight: 700;
+    color: rgb(24, 24, 24);
+}
+.sec-d{
+    font-size: 18;
+    color: rgb(117, 117, 117);
+}
+/* About styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.itm-dec{
+    font-weight: 600px;
+}
+.about-itms{
+    display: flex;
+    justify-content: space-between;
+}
