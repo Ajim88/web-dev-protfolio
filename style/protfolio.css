@@ -182,8 +182,7 @@ footer input[type="text"], footer input[type="email"], footer textarea{
         gap: 20px;
     }
     .btn{
-        margin-bottom: 0;
-        padding: 10px;
+        margin-bottom: 10px;
     }
     .banner{
         margin: 20px;
